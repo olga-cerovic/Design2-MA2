@@ -230,6 +230,15 @@ li {
   padding: 0.5rem;
 }
 
+/********  SHOPING CART   ************/
+
+.shopping-cart-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 0.6rem;
+  margin-left: 7rem;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -392,6 +401,10 @@ i {
   }
   .show {
     display: none;
+  }
+
+  .shopping-cart-icon {
+    margin-left: 0;
   }
 }
 
