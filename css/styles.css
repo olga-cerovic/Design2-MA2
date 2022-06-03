@@ -392,8 +392,17 @@ i {
     display: none;
   }
 
+  .nav-bar {
+    justify-content: space-evenly;
+  }
+
   .hamburger-menu {
     display: block;
+  }
+
+  .hamburger-menu-icon {
+    width: 50px;
+    height: 50px;
   }
 
   .notShow {
@@ -428,10 +437,10 @@ i {
   .nav-menu-mobile {
     margin-top: 7%;
   }
-  .nav-bar {
+  /* .nav-bar {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
+  } */
 
   .logo-header img {
     width: 80%;

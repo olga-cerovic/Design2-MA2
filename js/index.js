@@ -1,5 +1,6 @@
 const hamburgeMenuDiv = document.querySelector(".nav-menu-mobile");
-const hamLines = document.querySelectorAll(".ham-line");
+// const hamLines = document.querySelectorAll(".ham-line");
+const hamIcon = document.querySelector(".hamburger-menu-icon");
 
 const handleHamburgerMenuButton = () => {
   if (hamburgeMenuDiv.classList.contains("notShow")) {
