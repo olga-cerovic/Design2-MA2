@@ -236,7 +236,7 @@ li {
   width: 30px;
   height: 30px;
   margin-top: 0.6rem;
-  margin-left: 7rem;
+  margin-left: 3rem;
 }
 
 .footer {
@@ -380,6 +380,20 @@ i {
     width: 120px;
     height: 100%;
   }
+
+  .logo-header img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .nav-menu {
+    margin-bottom: 1.7rem;
+    font-size: 0.9rem;
+  }
+
+  .shopping-cart-icon {
+    margin-left: 2rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -401,8 +415,8 @@ i {
   }
 
   .hamburger-menu-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 
   .notShow {
@@ -414,6 +428,20 @@ i {
 
   .shopping-cart-icon {
     margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .hamburger-menu-icon {
+    margin-bottom: 0.4rem;
+  }
+
+  .logo-header img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .nav-menu {
+    margin-bottom: 0;
   }
 }
 
@@ -442,9 +470,13 @@ i {
     padding-right: 2rem;
   } */
 
-  .logo-header img {
+  /* .logo-header img {
     width: 80%;
     height: 80%;
+  } */
+
+  .logo-header {
+    z-index: 200000;
   }
 
   .payment {
@@ -473,6 +505,11 @@ i {
   .insta-9,
   .insta-10 {
     display: none;
+  }
+
+  .nav-bar {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
