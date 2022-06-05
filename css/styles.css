@@ -289,6 +289,11 @@ i {
   margin-bottom: 5px;
 }
 
+.nav-menu a.active,
+.nav-menu-mobile a.active {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1600px) {
   .insta-8 {
     display: none;
